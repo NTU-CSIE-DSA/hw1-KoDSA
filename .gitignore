@@ -1,0 +1,6 @@
+*.out
+*.exe
+
+tests/
+logs/
+sandbox/

@@ -1,0 +1,30 @@
+{
+	"global_validators": ["val.cpp"],
+	"subtasks": {
+		"samples": {
+			"index": 0,
+			"score": 0,
+			"text": "sample", 
+			"validators": [""]
+		},
+		"s1": {
+			"index": 1,
+			"score": 10,
+			"text": "N <= 1000", 
+			"validators": [""]
+		}, 
+		"s2": {
+			"index": 2,
+			"score": 40,
+			"text": "no revolution",
+			"validators": ["val_s2.cpp"]
+		}, 
+		"s3": {
+			"index": 3,
+			"score": 50,
+			"text": "no other constraints",
+			"validators": [""]
+		}
+	}
+}
+

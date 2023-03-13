@@ -96,4 +96,4 @@ Final: 8,2 5,12
 
 - Please note the special memory limit for this problem. You are expected to use $O(M)$ memory only.
 - If you receive a Runtime Error (RE) on the DSA judge, it is possible that you have exceeded the memory limit.
-- Little Cucumber suggests players to visualize things rather than starring at them.
+- Little Cucumber suggests players to visualize things rather than staring at them.

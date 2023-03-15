@@ -15,13 +15,13 @@
 		}, 
 		"s2": {
 			"index": 2,
-			"score": 40,
+			"score": 30,
 			"text": "no revolution",
 			"validators": ["val_s2.cpp"]
 		}, 
 		"s3": {
 			"index": 3,
-			"score": 50,
+			"score": 60,
 			"text": "no other constraints",
 			"validators": [""]
 		}

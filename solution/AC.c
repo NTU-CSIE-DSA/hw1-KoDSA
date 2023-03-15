@@ -62,12 +62,12 @@ int main() {
         while(get_size() && get_back().atk < atk) {
             tmp = pop_back() ;
             pts = tmp.val + (idx - tmp.idx) ;
-            printf(" %d,%d", tmp.idx, pts) ;
+            printf(" %d", tmp.idx) ;
             modify_back(pts) ;
         }
         if (get_size() == m) {
             tmp = pop_front() ;
-            printf(" %d,%d", tmp.idx, top) ;
+            printf(" %d", tmp.idx) ;
             top = top - (idx - tmp.idx) - tmp.val ;
         }
         if (get_size()) 
@@ -85,7 +85,7 @@ int main() {
     while(get_size()) {
         tmp = pop_back() ;
         pts = tmp.val + (n+1 - tmp.idx) ;
-        printf(" %d,%d", tmp.idx, pts) ;
+        printf(" %d", tmp.idx) ;
         modify_back(pts) ;
     }
     printf("\n") ;
